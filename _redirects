@@ -1,0 +1,27 @@
+# IntelliHome Canonical URL & Security Redirects
+# Standard 301 Permanent Redirects for Static Hosts (Netlify, Cloudflare, etc.)
+
+# Force HTTPS & canonical www domain
+http://intellihome.in/* https://www.intellihome.in/:splat 301!
+https://intellihome.in/* https://www.intellihome.in/:splat 301!
+http://www.intellihome.in/* https://www.intellihome.in/:splat 301!
+
+# Canonicalize index.html to homepage
+/index.html / 301!
+
+# Dedicated Single-Intent Service Page Aliases
+/knx /knx-automation.html 301
+/knx-automation /knx-automation.html 301
+/retrofit /wireless-retrofit.html 301
+/wireless-retrofit /wireless-retrofit.html 301
+/dali /dali-lighting.html 301
+/dali-lighting /dali-lighting.html 301
+/lighting /dali-lighting.html 301
+/curtains /motorized-curtains.html 301
+/motorized-curtains /motorized-curtains.html 301
+/cabling /structured-cabling.html 301
+/structured-cabling /structured-cabling.html 301
+/wifi /wifi-setup.html 301
+/wifi-setup /wifi-setup.html 301
+/products /product.html 301
+/product /product.html 301

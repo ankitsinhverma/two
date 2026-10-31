@@ -1,0 +1,53 @@
+# IntelliHome
+
+> IntelliHome is Nagpur's premier turnkey smart home automation, architectural lighting, enterprise WiFi mesh, and certified wired KNX engineering company, founded and led by Er. Ankit Singh Verma.
+
+IntelliHome engineers high-end, decentralized, offline-first smart home ecosystems for luxury villas, apartments, and commercial residences across Nagpur and the Vidarbha region in Maharashtra, India. Unlike conventional wireless consumer gadgets, IntelliHome specializes in industrial-grade certified wired KNX installations (ISO/IEC 14543-3), DALI circadian smart lighting, whisper-quiet motorized curtain controls, enterprise WiFi 6E multi-access-point mesh architectures, and precision fire-safe electrical distribution.
+
+## Core Dedicated Service Pages
+
+- [Homepage](https://www.intellihome.in/): Master overview of IntelliHome's award-winning smart automation services, architectural switchboards, luxury keypads, project showcase, and customer testimonials in Nagpur.
+- [KNX Wired Home Automation Nagpur](https://www.intellihome.in/knx-automation.html): Certified wired KNX automation on a decentralized German fieldbus standard with zero cloud dependence and 30-year operational reliability for luxury villas and residences in Nagpur.
+- [Wireless Smart Home Retrofit Nagpur](https://www.intellihome.in/wireless-retrofit.html): Non-invasive Zigbee 3.0 & Matter micro modules fitted behind existing switchboards without chipping walls, repainting, or changing designer switch plates in 48 hours.
+- [DALI Smart Architectural Lighting Nagpur](https://www.intellihome.in/dali-lighting.html): Precision DALI-2 digital lighting control, 0.1% flicker-free micro-dimming, circadian tunable white (2200K-6500K), and architectural false-ceiling cove synchronization.
+- [Motorized Smart Curtains & Blinds Nagpur](https://www.intellihome.in/motorized-curtains.html): Heavy-duty whisper-quiet (<30dB) motorized drapery tracks, automated roller blinds, and double-height architectural window coverage engineered for Vidarbha climate.
+- [Structured Cabling & Smart DB Panels Nagpur](https://www.intellihome.in/structured-cabling.html): Industrial-grade electrical distribution boards, segregated Cat6A/fiber data backbones, FRLS copper conduits, and whole-home Type 2 surge protection.
+- [Enterprise WiFi 6E Mesh Setup Nagpur](https://www.intellihome.in/wifi-setup.html): Enterprise-grade multi-gigabit WiFi 6E mesh network design, seamless zero-drop 802.11k/v/r roaming, dedicated IoT VLAN segregation, and RF dead-zone elimination for expansive residences.
+- [Smart Home Automation Systems Guide](https://www.intellihome.in/automation.html): Interactive comparison and system architecture guide for homeowners and architects comparing Wired KNX vs Wireless Retrofit vs DALI.
+- [Residential Electrical Contracting](https://www.intellihome.in/electrical.html): 25-year family legacy in residential electrical contracting, phase load balancing, and smart modular switchboards in Nagpur.
+- [Hardware & Smart Panels Catalog](https://www.intellihome.in/product.html): Architectural smart glass touch panels, Saturn multi-zone screens, Terre luxury keypads, intelligent climate thermostats, and DIN-rail automation actuators.
+- [About IntelliHome](https://www.intellihome.in/about.html): Company background, 25-year electrical heritage, engineering credentials of founders Er. Ankit Singh Verma & Er. Anjali Verma, and turnkey processes.
+- [Contact & Free Site Consultation](https://www.intellihome.in/contact.html): Direct consultation booking, architectural CAD plan review, phone contact, and Nagpur Central Hub presence.
+
+## Technical Capabilities & Engineering Standards
+
+- **Certified Wired KNX Automation (ISO/IEC 14543-3)**: Open, decentralized global standard with no single point of failure, 30+ year lifespan, offline local bus execution, and compatibility with over 500 global manufacturers.
+- **DALI-2 Architectural Lighting Control**: High-precision 0.1% circadian rhythm dimming, tunable white color temperature tracking, human-centric lighting (HCL), and architectural scene sequencing.
+- **Smart Motorized Curtains & Shading**: Ultra-silent (<30 dB) heavy-duty motorized curtain tracks, sun-tracking motorized roller shades, and integrated automated scheduling.
+- **Enterprise Wireless & Network Engineering**: Tri-band WiFi 6E mesh access points, gigabit Ethernet backhauls, IoT network isolation, packet prioritization for voice and video, and smart home hub stability.
+- **Precision Electrical & Fire Safety**: FRLS-grade copper conduits, dual-pole RCBO/RCCB short-circuit and leakage protection, phase load balancing, and structured cable management.
+
+## Service Coverage (Nagpur & Vidarbha Hubs)
+
+IntelliHome provides direct architectural surveys, on-site wiring audits, engineering design, and turnkey installations across:
+- **Nagpur City**: Dharampeth, Ramdaspeth, Civil Lines, Sadar, Wardha Road, Manish Nagar, Pratap Nagar, Besa, Shankar Nagar, Bajaj Nagar, Shivaji Nagar, Byramji Town, Koradi Road, and MIHAN SEZ.
+- **Regional Vidarbha**: Amravati, Chandrapur, Wardha, Gondia, Bhandara, Yavatmal, and Akola.
+
+## Company & Contact Information
+
+- **Organization Name**: IntelliHome (IntelliHome Smart Home Automation)
+- **Founders**: Er. Ankit Singh Verma & Er. Anjali Verma
+- **Official Website**: https://www.intellihome.in/
+- **Phone / WhatsApp**: [+91 72762 26674](tel:+917276226674)
+- **Direct Email**: [hello@intellihome.in](mailto:hello@intellihome.in)
+- **Headquarters**: Nagpur Central Hub, Nagpur, Maharashtra, 440001, India
+- **Coordinates**: Latitude 21.1458° N, Longitude 79.0882° E
+- **Business Hours**: Monday to Sunday: 09:00 AM – 09:00 PM IST
+
+## Site Directory & Regulatory Documentation
+
+- [HTML Sitemap](https://www.intellihome.in/sitemap.html): Complete user-accessible directory and index of all sections and pages.
+- [XML Sitemap](https://www.intellihome.in/sitemap.xml): Search engine and crawler XML index with image metadata.
+- [Privacy Policy](https://www.intellihome.in/privacy.html): Client data privacy policies, camera/sensor offline isolation protocols, and compliance.
+- [Terms & Conditions](https://www.intellihome.in/terms.html): Hardware warranty terms, on-site commissioning standards, and service contracts.
+- [Cookie Policy](https://www.intellihome.in/cookie-policy.html): Transparent declaration of client consent preferences and storage protocols.

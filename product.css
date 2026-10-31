@@ -1,0 +1,998 @@
+/* =========================================================================
+   Product Catalog Design System — TIS Control Panels Showcase
+   Exact replica of TIS BUS Architectural Control Panels Catalog
+   ========================================================================= */
+
+:root {
+  --tis-red: #d32328;
+  --tis-red-dark: #b81b20;
+  --tis-red-light: #fbebee;
+  --tis-header-gray: #8d989f;
+  --tis-bg-base: #f9f9fb;
+  --tis-card-bg: #ffffff;
+  --tis-text-primary: #1d1d1f;
+  --tis-text-secondary: #5a5a5e;
+  --tis-border: rgba(0, 0, 0, 0.08);
+  --apple-font-display: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --apple-font-text: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* HTML Smooth Scrolling & Anchor Offset Clearance */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--apple-nav-height, 44px) + 26px);
+}
+
+/* Lenis Recommended Smooth Scroll CSS */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Anchor Target Scroll Offset Clearance for Fixed Navigation */
+.catalog-product-item,
+.catalog-sheet,
+.catalog-cta-banner,
+.catalog-anchor-alias {
+  scroll-margin-top: calc(var(--apple-nav-height, 44px) + 26px);
+}
+
+.catalog-anchor-alias {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  pointer-events: none;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Container */
+.product-catalog-page {
+  background-color: #f7f7f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Intro Ribbon */
+.catalog-top-announcement {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 13.5px;
+  color: #6e6e73;
+  margin-top: 44px; /* clears fixed nav */
+}
+
+.catalog-top-announcement a {
+  color: var(--tis-red);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 6px;
+}
+
+.catalog-top-announcement a:hover {
+  text-decoration: underline;
+}
+
+/* Catalog Stage / Paper Sheet Frame */
+.catalog-stage-wrapper {
+  max-width: 1280px;
+  margin: 32px auto 60px;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.catalog-sheet {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(200, 210, 220, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(200, 210, 220, 0.12) 0%, transparent 40%);
+}
+
+/* Header Section */
+.catalog-header {
+  position: relative;
+  padding: 36px 48px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.catalog-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-main-title {
+  font-family: var(--apple-font-display);
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--tis-header-gray);
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.catalog-subtitle {
+  font-family: var(--apple-font-text);
+  font-size: 13.5px;
+  color: #86868b;
+  margin: 8px 0 0 0;
+  letter-spacing: -0.01em;
+}
+
+/* Central Tab Logo matching Reference */
+.catalog-brand-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.catalog-tab-badge {
+  background: #ffffff;
+  padding: 6px 24px;
+  border-radius: 0 0 16px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog-tis-logo-img {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.catalog-actions-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.catalog-btn-enquire {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--tis-red);
+  color: #ffffff;
+  font-family: var(--apple-font-text);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 9px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(211, 35, 40, 0.25);
+}
+
+.catalog-btn-enquire:hover {
+  background: var(--tis-red-dark);
+  transform: translateY(-1px);
+}
+
+.catalog-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  font-family: var(--apple-font-text);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+.catalog-btn-outline:hover {
+  background: #e5e5ea;
+}
+
+/* 3-Column x 2-Row Product Grid */
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px 28px;
+  padding: 40px 48px;
+  box-sizing: border-box;
+}
+
+/* Individual Product Card */
+.catalog-product-item {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+}
+
+.catalog-product-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Visual Stage: Device Photo + Color Finish Swatches */
+.catalog-device-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 12px 0 16px;
+}
+
+.catalog-device-photo {
+  max-width: 80%;
+  max-height: 140px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.12));
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.catalog-product-item:hover .catalog-device-photo {
+  transform: scale(1.04);
+}
+
+/* Finish Swatch Dots (Vertical Stack on the right side of device) */
+.catalog-finish-dots {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.finish-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(0, 0, 0, 0.12);
+  display: block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.finish-dot:hover {
+  transform: scale(1.2);
+}
+
+.finish-black { background-color: #111111; }
+.finish-white { background-color: #f7f7f7; }
+.finish-silver { background-color: #cfd2d6; }
+.finish-bronze { background-color: #927a69; }
+.finish-gold { background-color: #c9a473; }
+.finish-slate { background-color: #4b5258; }
+
+/* Red Pill Header Bar */
+.catalog-pill-header {
+  background: var(--tis-red);
+  color: #ffffff;
+  font-family: var(--apple-font-text);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  padding: 5px 16px;
+  border-radius: 999px;
+  letter-spacing: -0.01em;
+  margin: 4px 0 16px 0;
+  box-shadow: 0 2px 8px rgba(211, 35, 40, 0.2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Specification Micro Table (Exact Replica of Reference) */
+.catalog-spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--apple-font-text);
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--tis-text-primary);
+  margin-top: auto;
+}
+
+.catalog-spec-table tr {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.08);
+}
+
+.catalog-spec-table tr:last-child {
+  border-bottom: none;
+}
+
+.spec-category {
+  font-weight: 700;
+  color: #1d1d1f;
+  width: 25%;
+  vertical-align: top;
+  padding: 4px 6px 4px 0;
+}
+
+.spec-key {
+  font-weight: 500;
+  color: #555558;
+  width: 32%;
+  vertical-align: top;
+  padding: 4px 6px;
+}
+
+.spec-val {
+  font-weight: 400;
+  color: #2b2b2e;
+  width: 43%;
+  vertical-align: top;
+  padding: 4px 0 4px 6px;
+  word-break: break-word;
+}
+
+/* Card Bottom Action Bar */
+.catalog-card-footer {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-quick-enquiry {
+  color: var(--tis-red);
+  font-size: 11.5px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-quick-enquiry:hover {
+  text-decoration: underline;
+}
+
+.card-specs-tag {
+  font-size: 10.5px;
+  color: #86868b;
+  background: #f5f5f7;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+/* Bottom Catalog Bar (Page 62 + TIS Branding + Red Footer Band) */
+.catalog-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 48px 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.catalog-page-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.catalog-page-box {
+  border: 1.5px solid #a0a6ad;
+  border-radius: 8px;
+  padding: 2px 10px;
+  text-align: center;
+  color: #8d989f;
+}
+
+.catalog-page-label {
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  line-height: 1;
+}
+
+.catalog-page-num {
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  line-height: 1.1;
+  color: #7b848c;
+}
+
+.catalog-footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.catalog-footer-logo-img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+.catalog-red-band {
+  height: 18px;
+  background-color: var(--tis-red);
+  width: 100%;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 24px;
+    gap: 28px 20px;
+  }
+
+  .catalog-header {
+    padding: 28px 24px 18px;
+  }
+
+  .catalog-bottom-bar {
+    padding: 16px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .catalog-grid {
+    grid-template-columns: 1fr;
+    padding: 20px 16px;
+    gap: 22px;
+  }
+
+  .catalog-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 16px;
+  }
+
+  .catalog-actions-right {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .catalog-brand-tab {
+    display: none;
+  }
+
+  .catalog-stage-wrapper {
+    margin: 16px auto 40px;
+    padding: 0 12px;
+  }
+
+  .catalog-bottom-bar {
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 16px;
+  }
+}
+
+/* =========================================================================
+   Consultation Banner (After 2 Catalog Sheets)
+   ========================================================================= */
+.catalog-cta-banner {
+  max-width: 1280px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.catalog-cta-content {
+  background: linear-gradient(135deg, #1d1d1f 0%, #2c2c2e 100%);
+  border-radius: 18px;
+  padding: 50px 40px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog-cta-eyebrow {
+  font-family: var(--apple-font-text);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--tis-red);
+  margin-bottom: 12px;
+  display: block;
+}
+
+.catalog-cta-title {
+  font-family: var(--apple-font-display);
+  font-size: clamp(24px, 3.5vw, 36px);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 0 0 14px 0;
+  color: #ffffff;
+  max-width: 640px;
+}
+
+.catalog-cta-desc {
+  font-family: var(--apple-font-text);
+  font-size: clamp(14px, 1.8vw, 16px);
+  line-height: 1.5;
+  color: #a1a1a6;
+  max-width: 620px;
+  margin: 0 0 28px 0;
+}
+
+.catalog-cta-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.catalog-cta-actions .catalog-btn-enquire {
+  background: var(--tis-red);
+  color: #ffffff;
+  padding: 12px 28px;
+  font-size: 14px;
+}
+
+.catalog-cta-actions .catalog-btn-enquire:hover {
+  background: var(--tis-red-dark);
+}
+
+.catalog-cta-actions .catalog-btn-outline {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.2);
+  padding: 11px 26px;
+  font-size: 14px;
+}
+
+.catalog-cta-actions .catalog-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* =========================================================================
+   Apple Directory Global Footer (apple.com Standard Design)
+   ========================================================================= */
+.apple-footer {
+  background-color: #f5f5f7;
+  color: #6e6e73;
+  font-family: var(--apple-font-text);
+  font-size: 12px;
+  line-height: 1.45;
+  padding: 34px 16px 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: auto;
+}
+
+.apple-footer-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Footnotes Section */
+.apple-footnotes {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 18px;
+  margin-bottom: 22px;
+}
+
+.apple-footnotes p {
+  margin: 0 0 8px 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #6e6e73;
+}
+
+.apple-footnotes p:last-child {
+  margin-bottom: 0;
+}
+
+/* Breadcrumb Bar */
+.apple-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.apple-breadcrumb-logo {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.apple-breadcrumb-logo img {
+  width: 14px;
+  height: 14px;
+}
+
+.apple-breadcrumb-sep {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.apple-breadcrumb-item {
+  color: inherit;
+  text-decoration: none;
+}
+
+.apple-breadcrumb-item:hover {
+  text-decoration: underline;
+  color: #1d1d1f;
+}
+
+/* 5-Column Directory Navigation */
+.apple-directory-columns {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+  padding-bottom: 30px;
+}
+
+.apple-directory-col h3 {
+  font-family: var(--apple-font-text);
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.01em;
+}
+
+.apple-directory-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.apple-directory-list:last-child {
+  margin-bottom: 0;
+}
+
+.apple-directory-list li {
+  margin-bottom: 9px;
+}
+
+.apple-directory-link {
+  color: #6e6e73;
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 0.15s ease;
+}
+
+.apple-directory-link:hover {
+  color: #1d1d1f;
+  text-decoration: underline;
+}
+
+/* Legal & Copyright Row */
+.apple-legal-row {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.apple-copyright {
+  margin: 0;
+  color: #6e6e73;
+}
+
+.apple-legal-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.apple-legal-link {
+  color: #6e6e73;
+  text-decoration: none;
+}
+
+.apple-legal-link:hover {
+  text-decoration: underline;
+  color: #1d1d1f;
+}
+
+/* Responsive Footer on Mobile (<= 834px) */
+@media (max-width: 834px) {
+  .catalog-cta-content {
+    padding: 36px 20px;
+    border-radius: 14px;
+  }
+
+  .catalog-cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .catalog-cta-actions a {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .apple-directory-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .apple-directory-col {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 10px 0;
+  }
+
+  .apple-directory-col h3 {
+    margin: 0;
+    padding: 6px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+
+  .apple-directory-col h3::after {
+    content: '+';
+    font-size: 15px;
+    font-weight: 400;
+    transition: transform 0.2s ease;
+  }
+
+  .apple-directory-col.active h3::after {
+    transform: rotate(45deg);
+  }
+
+  .apple-directory-list {
+    display: none;
+    padding-top: 8px;
+  }
+
+  .apple-directory-col.active .apple-directory-list {
+    display: block;
+  }
+
+  .apple-legal-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .apple-legal-links {
+    gap: 10px 14px;
+  }
+}
+
+/* =========================================================================
+   Product Brand Disclaimer Modal (Once Per Session)
+   ========================================================================= */
+.apple-disclaimer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
+}
+
+.apple-disclaimer-overlay.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.apple-disclaimer-dialog {
+  background: #ffffff;
+  border-radius: 20px;
+  max-width: 480px;
+  width: 100%;
+  padding: 36px 30px 30px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.22), 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transform: scale(0.92);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.apple-disclaimer-overlay.is-visible .apple-disclaimer-dialog {
+  transform: scale(1);
+}
+
+.disclaimer-icon-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #f5f5f7;
+  color: var(--tis-red);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.disclaimer-title {
+  font-family: var(--apple-font-display);
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: #1d1d1f;
+  margin: 0 0 12px 0;
+}
+
+.disclaimer-text {
+  font-family: var(--apple-font-text);
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: #555558;
+  margin: 0 0 26px 0;
+}
+
+.disclaimer-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.disclaimer-btn-primary {
+  background-color: #1d1d1f;
+  color: #ffffff;
+  font-family: var(--apple-font-text);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 38px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.disclaimer-btn-primary:hover {
+  background-color: #000000;
+  transform: scale(1.02);
+}
+
+.disclaimer-btn-primary:active {
+  transform: scale(0.98);
+}
+
+/* =========================================================================
+   Apple Mac Page Scroll & Entrance Fade-In Motion System — Products
+   ========================================================================= */
+
+:root {
+  --apple-motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --apple-fade-duration: 1.45s;
+  --apple-transform-duration: 1.55s;
+}
+
+html.apple-motion-ready .catalog-top-announcement,
+html.apple-motion-ready .catalog-header > *,
+html.apple-motion-ready .catalog-product-item,
+html.apple-motion-ready .catalog-cta-banner,
+html.apple-motion-ready .catalog-bottom-bar,
+html.apple-motion-ready .apple-footnotes,
+html.apple-motion-ready .apple-breadcrumbs,
+html.apple-motion-ready .apple-directory-col {
+  opacity: 0;
+  transform: translate3d(0, 42px, 0);
+  transition: opacity var(--apple-fade-duration) cubic-bezier(0.25, 1, 0.35, 1),
+              transform var(--apple-transform-duration) var(--apple-motion-ease);
+  will-change: opacity, transform;
+}
+
+html.apple-motion-ready .catalog-product-item {
+  transform: translate3d(0, 48px, 0) scale(0.965);
+  transition: opacity 1.5s cubic-bezier(0.25, 1, 0.35, 1),
+              transform 1.6s var(--apple-motion-ease),
+              box-shadow 0.4s ease;
+}
+
+.catalog-top-announcement.is-revealed,
+.catalog-cta-banner.is-revealed,
+.catalog-bottom-bar.is-revealed,
+.apple-footnotes.is-revealed,
+.apple-breadcrumbs.is-revealed,
+.apple-directory-col.is-revealed {
+  opacity: 1 !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.catalog-product-item.is-revealed {
+  opacity: 1 !important;
+  transform: translate3d(0, 0, 0) scale(1) !important;
+  will-change: auto;
+}
+
+.catalog-header.is-revealed > * {
+  opacity: 1 !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.catalog-product-item:nth-child(4n+1) { transition-delay: 0.06s; }
+.catalog-product-item:nth-child(4n+2) { transition-delay: 0.18s; }
+.catalog-product-item:nth-child(4n+3) { transition-delay: 0.30s; }
+.catalog-product-item:nth-child(4n)   { transition-delay: 0.42s; }
+
+.catalog-product-item.is-revealed:hover {
+  transform: translateY(-4px) scale(1.01) !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.apple-motion-ready *,
+  .catalog-top-announcement,
+  .catalog-header > *,
+  .catalog-product-item,
+  .catalog-cta-banner,
+  .catalog-bottom-bar {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

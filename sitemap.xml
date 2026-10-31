@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 1. Homepage -->
+  <url>
+    <loc>https://www.intellihome.in/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/homepod_mini_touch.avif</image:loc>
+      <image:title>IntelliHome Smart Touch Speaker Controller</image:title>
+      <image:caption>Smart touch audio and voice control interface for luxury homes in Nagpur</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/smart_panel_matrix.avif</image:loc>
+      <image:title>IntelliHome Luxury Smart Touch Glass Panels</image:title>
+      <image:caption>Architectural multi-gang smart touch glass control panels and thermostats in Nagpur</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/smart_lighting_pavilion.avif</image:loc>
+      <image:title>Architectural DALI Smart Lighting Design Pavilion</image:title>
+      <image:caption>Circadian and DALI broadcast smart architectural lighting engineering in modern residences</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/knx_automation.avif</image:loc>
+      <image:title>Certified Wired KNX Automation Infrastructure</image:title>
+      <image:caption>Industrial-grade wired KNX smart home distribution panel in Nagpur</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/motorized_curtains.avif</image:loc>
+      <image:title>Motorized Smart Curtains &amp; Shading</image:title>
+      <image:caption>Whisper-quiet motorized curtains and sun-synchronized smart shades</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/luxury_keypad.avif</image:loc>
+      <image:title>Designer Tactile Switchboards &amp; Luxury Keypads</image:title>
+      <image:caption>Solid brushed metal and glass luxury smart home keypads and thermostats</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/wifi_hero_living.avif</image:loc>
+      <image:title>Enterprise WiFi 6E Mesh Setup</image:title>
+      <image:caption>Ultra-low latency gigabit mesh wireless network integration</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 2. Products / Hardware Catalog -->
+  <url>
+    <loc>https://www.intellihome.in/product.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_saturn_40.avif</image:loc>
+      <image:title>IntelliHome Saturn 40 Smart Wall Panel</image:title>
+      <image:caption>Compact 4-inch touch panel for multi-room lighting, HVAC, and audio scenes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_saturn_57.avif</image:loc>
+      <image:title>IntelliHome Saturn 57 IPS Touch Panel</image:title>
+      <image:caption>Architectural 5.7-inch IPS panel with customizable multi-zone living control</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_saturn_133.avif</image:loc>
+      <image:title>IntelliHome Saturn 133 Master Command Console</image:title>
+      <image:caption>Flagship 13.3-inch centralized smart home touch console for luxury villas</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_terre_4g.avif</image:loc>
+      <image:title>IntelliHome Terre 4G Smart Touch Switch</image:title>
+      <image:caption>Solid glass touch switchboard with customizable backlight icons</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_terre_audio.avif</image:loc>
+      <image:title>IntelliHome Terre Audio Controller</image:title>
+      <image:caption>Dedicated architectural multi-room audio and streaming controller</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_terre_thermostat.avif</image:loc>
+      <image:title>IntelliHome Terre Room Thermostat</image:title>
+      <image:caption>Precision HVAC climate controller with humidity and temperature display</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_sol_lcd.avif</image:loc>
+      <image:title>IntelliHome Sol LCD Smart Switch</image:title>
+      <image:caption>Modern OLED/LCD smart switch with dynamic multi-function button labels</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_sol_3gang.avif</image:loc>
+      <image:title>IntelliHome Sol 3-Gang Flush Switch</image:title>
+      <image:caption>Flush luxury capacitive glass touch switch for architectural residences</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_mars_ac_10gang.avif</image:loc>
+      <image:title>IntelliHome Mars AC 10-Gang Multi-Zone Controller</image:title>
+      <image:caption>Comprehensive 10-gang climate, curtain, and scene control wall panel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_mars_4_8gangs.avif</image:loc>
+      <image:title>IntelliHome Mars 4/8-Gang Modular Smart Panel</image:title>
+      <image:caption>Modular multi-gang lighting and shading controller in sleek matte finish</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_click_switch.avif</image:loc>
+      <image:title>IntelliHome Click Switch Tactile Machined Keypad</image:title>
+      <image:caption>CNC precision-milled aluminum keypad with tactile micro-switch actuation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/product_click_thermostat.avif</image:loc>
+      <image:title>IntelliHome Click Thermostat Machined Panel</image:title>
+      <image:caption>Solid architectural metal keypad with integrated digital thermostat</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 3. Smart Home Automation -->
+  <url>
+    <loc>https://www.intellihome.in/automation.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/knx_automation.avif</image:loc>
+      <image:title>Certified Wired KNX Home Automation Infrastructure Nagpur</image:title>
+      <image:caption>Decentralized industrial-grade wired KNX smart home architecture</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/smart_home_hub.avif</image:loc>
+      <image:title>Wireless Smart Home Retrofit Hub</image:title>
+      <image:caption>Zero wall chipping retrofit Zigbee and Matter smart switchboard integration</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/smart_lighting_pavilion.avif</image:loc>
+      <image:title>DALI Smart Architectural Lighting Design</image:title>
+      <image:caption>Flicker-free 0.1% circadian tunable white lighting architecture</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/motorized_curtains.avif</image:loc>
+      <image:title>Motorized Smart Curtains &amp; Shading</image:title>
+      <image:caption>Whisper-quiet motorized drapery tracks and automated roller blinds</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/smart_touch_panel.avif</image:loc>
+      <image:title>Architectural Smart Touch Control Panels</image:title>
+      <image:caption>Customizable multi-gang luxury smart glass touch consoles</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 4. Electrical Engineering -->
+  <url>
+    <loc>https://www.intellihome.in/electrical.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/wiring_design.avif</image:loc>
+      <image:title>Structured Residential Copper Conduit Wiring Nagpur</image:title>
+      <image:caption>FRLS flame-retardant conduit laying and copper wiring execution</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/lighting_design.avif</image:loc>
+      <image:title>Architectural Lighting Wiring &amp; Circuit Design</image:title>
+      <image:caption>Phase load balanced circuit planning for cove and accent lighting</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/switchboard_design.avif</image:loc>
+      <image:title>Designer Modular Switchboard Installation</image:title>
+      <image:caption>Precision flush-gang modular switchboard mounting and terminations</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/panel_design.avif</image:loc>
+      <image:title>Smart Electrical Distribution Boards &amp; Surge Defense</image:title>
+      <image:caption>Industrial-grade DB panels with dual-pole RCBO and Type 2 surge protectors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/sensors_design.avif</image:loc>
+      <image:title>Ceiling Micro-Radar Multi-Sensors</image:title>
+      <image:caption>Subtle architectural presence detection and automated energy management</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 5. WiFi Setup & Mesh -->
+  <url>
+    <loc>https://www.intellihome.in/wifi-setup.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/wifi_mesh.avif</image:loc>
+      <image:title>Whole-Home WiFi 6E Mesh Setup Nagpur</image:title>
+      <image:caption>Multi-gigabit wireless mesh network design with zero dead zones</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/network.avif</image:loc>
+      <image:title>High-Performance Gigabit Network Infrastructure</image:title>
+      <image:caption>Centralized server racks and managed PoE switches for smart homes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/wifi_ap_planning.avif</image:loc>
+      <image:title>RF Architectural Heatmap &amp; Access Point Planning</image:title>
+      <image:caption>Predictive RF simulation and ceiling access point positioning</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/wifi_iot.avif</image:loc>
+      <image:title>Dedicated Isolated IoT Device Network</image:title>
+      <image:caption>VLAN network isolation separating smart automation from personal computers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/wifi_monitoring.avif</image:loc>
+      <image:title>Real-Time Network Monitoring &amp; QoS</image:title>
+      <image:caption>Bandwidth prioritization for 8K streaming, conferencing, and home automation</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 6. Dedicated Service: KNX Automation -->
+  <url>
+    <loc>https://www.intellihome.in/knx-automation.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/knx_automation.avif</image:loc>
+      <image:title>Certified Wired KNX Automation Nagpur</image:title>
+      <image:caption>Decentralized German wired smart home automation system in Nagpur</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 7. Dedicated Service: Wireless Retrofit -->
+  <url>
+    <loc>https://www.intellihome.in/wireless-retrofit.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/smart_home_hub.avif</image:loc>
+      <image:title>Wireless Smart Home Retrofit Nagpur</image:title>
+      <image:caption>Non-invasive smart switch retrofit with zero wall chipping in Nagpur</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 8. Dedicated Service: DALI Smart Lighting -->
+  <url>
+    <loc>https://www.intellihome.in/dali-lighting.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/smart_lighting_pavilion.avif</image:loc>
+      <image:title>DALI Smart Architectural Lighting Nagpur</image:title>
+      <image:caption>Flicker-free 0.1% dimming and circadian tunable white lighting in Nagpur</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 9. Dedicated Service: Motorized Curtains -->
+  <url>
+    <loc>https://www.intellihome.in/motorized-curtains.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/motorized_curtains.avif</image:loc>
+      <image:title>Motorized Curtains and Smart Blinds Nagpur</image:title>
+      <image:caption>Whisper quiet motorized drapery tracks and automated blinds in Nagpur</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 10. Dedicated Service: Structured Cabling -->
+  <url>
+    <loc>https://www.intellihome.in/structured-cabling.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/wiring_design.avif</image:loc>
+      <image:title>Structured Cabling &amp; Smart DB Panels Nagpur</image:title>
+      <image:caption>FRLS copper conduit wiring, distribution boards and surge protection in Nagpur</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 11. About IntelliHome -->
+  <url>
+    <loc>https://www.intellihome.in/about.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/avatar_2.avif</image:loc>
+      <image:title>Er. Ankit Singh Verma - Founder at IntelliHome Nagpur</image:title>
+      <image:caption>Founder &amp; Principal Automation Engineer at IntelliHome Smart Home Automation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intellihome.in/assets/avatar_1.avif</image:loc>
+      <image:title>Er. Anjali Verma - Co-Founder at IntelliHome Nagpur</image:title>
+      <image:caption>Co-Founder &amp; Systems Engineering Lead at IntelliHome Smart Home Automation</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 12. Contact & Free Consultation -->
+  <url>
+    <loc>https://www.intellihome.in/contact.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 13. Human-Readable Architectural HTML Sitemap -->
+  <url>
+    <loc>https://www.intellihome.in/sitemap.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- 14. Privacy Policy -->
+  <url>
+    <loc>https://www.intellihome.in/privacy.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- 15. Terms and Conditions -->
+  <url>
+    <loc>https://www.intellihome.in/terms.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- 16. Cookie Policy -->
+  <url>
+    <loc>https://www.intellihome.in/cookie-policy.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
